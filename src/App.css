@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+.app {
+  height: 100vh;
+  width: 100%;
+  background: #eaf7ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.controls {
+  height: 100%;
+  width: 45%;
+  padding: 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.control_input {
+  width: 100%;
+}
+.control_top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.control_top input {
+  border: 2px solid #8acfff;
+  font-size: 14px;
+  color: #000;
+  padding: 5px;
+  width: 40px;
+}
+.checkInput {
+  width: 15%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+input:focus {
+  outline: none;
+}
+h2 {
+  font-size: 2.2em;
+  margin-bottom: 20px;
+}
+@media (max-width: 600px) {
+  .app {
+    display: block;
+    overflow-y: visible;
+  }
+  h1 {
+    margin-bottom: 10px;
+  }
+  .controls {
+    width: 100%;
+    padding: 30px;
+    overflow: hidden;
+  }
+  .control_input {
+    width: 80%;
+  }
+}
