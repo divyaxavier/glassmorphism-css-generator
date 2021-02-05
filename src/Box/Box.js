@@ -12,7 +12,7 @@ const Box = ({ blur, transparency, checked, color }) => {
         }
       : null;
   };
-  var outline = "";
+  const outline = "";
   if (checked) {
     outline = "border: 1px solid rgba( 255, 255, 255, 0.18 )";
     console.log(outline);
